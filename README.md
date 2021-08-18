@@ -8,10 +8,10 @@ Rest Endpoints are :
               Student
 1.  http://localhost:8080/api/students
 2.  http://localhost:8080/api/students/1
-2.  http://localhost:8080/api/students/search/count
+2.  http://localhost:8080/api/students/search/totalStudents
               
               Teacher
 1.  http://localhost:8080/api/teachers
 2.  http://localhost:8080/api/teachers/1
-2.  http://localhost:8080/api/teachers/search/count
+2.  http://localhost:8080/api/teachers/search/totalTeachers
 
