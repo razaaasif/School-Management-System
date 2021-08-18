@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface StudentRepository extends JpaRepository<Student,Integer> {
     @Query("select count(s) from Student s")
-    Long findCount();
+    Long totalStudents();
 
 }
