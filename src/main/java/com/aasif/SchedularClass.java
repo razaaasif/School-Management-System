@@ -18,7 +18,14 @@ public class SchedularClass {
     @PostConstruct
     @Scheduled(fixedRate = 2000)
     public void printData(){
-        System.out.println("Total No. Of Students are : "+studentRepository.totalStudents());
-        System.out.println("Total No. Of Teachers are : "+teacherRepository.totalTeachers());
+
+        Long s = studentRepository.totalStudents();
+        Long t = teacherRepository.totalTeachers();
+        System.out.println();
+        System.out.println();
+        System.out.println("Total No. Of Students are : "+s);
+        System.out.println("Total No. Of Teachers are : "+s);
+        System.out.println();
+        System.out.println();
     }
 }
